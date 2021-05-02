@@ -1,0 +1,104 @@
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: rgb(47, 53, 66);
+  margin: 0px;
+  padding: 0px;
+}
+#container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: auto;
+  min-height: 300px;
+  margin: 10px;
+}
+h1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 40px;
+  color: linen;
+}
+#searchPanel {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+#searchInput {
+  width: 60%;
+  height: 35px;
+  border: 1px solid #2f3542;
+  border-radius: 10px;
+  font-size: 20px;
+  padding-left: 10px;
+}
+#mainPanel {
+  display: flex;
+  width: 80%;
+  min-height: 300px;
+}
+#peoplePanel {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  background-color: rgb(244, 244, 244);
+  border: 1px solid #2f3542;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 20px;
+}
+#statisticsPanel {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  background-color: rgb(244, 244, 244);
+  border-width: 1px solid #2f3542;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 20px;
+}
+h2 {
+  display: block;
+  font-size: 1.5em;
+  margin-block-start: 0.83em;
+  margin-block-end: 0.83em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+}
+#statisticsDisplay {
+  margin-top: 25px;
+}
+.center {
+  text-align: center;
+}
+.red {
+  color: red;
+  font-size: 25px;
+  font-weight: bold;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+}
+#table {
+  border: 1px solid #9b9da0;
+  border-radius: 8px;
+}
+.tdBackground {
+  background: #ccc;
+  border-radius: 8px;
+  border: 1px solid #858689;
+}
+.peopleList {
+  border-radius: 10px;
+  border-bottom: 1px solid #9b9da0;
+  border-right: 1px solid #9b9da0;
+  font-size: 15px;
+  font-weight: bold;
+  padding-left: 10px;
+  margin-top: 10px;
+}
+.peopleList img {
+  border-radius: 10px;
+}

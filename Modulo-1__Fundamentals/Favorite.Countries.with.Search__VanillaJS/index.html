@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css" />
+    <link rel="stylesheet" href="./css/css.css" />
+    <title>Países Favoritos</title>
+  </head>
+  <body>
+
+    <div class="container_">
+      <div id="title">
+        <h1>Favorite Countries</h1>
+      </div>
+
+      <div id="searchPanel">
+        <input type="text" id="searchInput" placeholder="Search"></input>
+      </div>
+
+      <div id="countriesPanel">
+
+        <div id='showCountries'>
+          <h5>Countries: (<span id="countCountries"></span>)</h5>
+          <h6>Total Population: <span id="totalPopulationList"></span></h6>
+          <div id="tabCountries"></div>
+        </div>
+
+        <div id="showFavoriteCountries">
+          <h5>Favorite Countries: (<span id="countFavorites"></span>)</h5>
+          <h6>Total Population: <span id="totalPopulationFavorites"></span></h6>
+          <div id="tabFavorites"></div>
+        </div>
+
+      </div>
+
+    </div>
+
+  </body>
+</html>
+<script defer src="./js/script.js"></script>

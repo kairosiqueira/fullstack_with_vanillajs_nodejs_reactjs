@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="./css/css.css" />
+    <title>Desafio - Filtro de Pessoas</title>
+    <meta name="description" content="Aplication with javascript vanilla (puro)">
+    <meta name="keywords" content="HTML, CSS, JavaScript, FullStack, IGTI, 2020">
+    <meta name="author" content="Kairo Barbosa Siqueira">
+  </head>
+  <body>
+
+      <div id="container">
+
+        <h1> People filter </h1>
+      
+        <div id="searchPanel">
+          <input type="text" id="searchInput" placeholder="Enter the text"></input>
+        </div>
+
+        <div id="mainPanel">
+
+            <div id="peoplePanel">
+              <h2> People </h2>
+              <div id="peopleViewDisplay"></div>
+            </div>
+
+            <div id="statisticsPanel">
+              <h2>Statistics</h2>
+              <div id="statisticsDisplay">
+                <table width="100%" border="0" cellspacing="10" cellpadding="6" id="table">
+                  <tr>
+                    <td colspan="2" class="center tdBackground"><strong>Total records found!</strong></td>
+                  </tr>
+                  <tr>
+                    <td height="60" colspan="2" class="center red"><span id="countAllUsers"></span></td>
+                  </tr>
+                  <tr>
+                    <td class="center tdBackground"><strong>Male People</strong></td>
+                    <td class="center tdBackground"><strong>Female People</strong></td>
+                  </tr>
+                  <tr>
+                    <td height="60" class="center red"><span id="countMaleSexDisplay"></span></td>
+                    <td class="center red"><span id="countFemaleSexDisplay"></span></td>
+                  </tr>
+                  <tr>
+                    <td class="center tdBackground"><strong>Sum of Ages</strong></td>
+                    <td class="center tdBackground"><strong>Average Ages</strong></td>
+                  </tr>
+                  <tr>
+                    <td height="60" class="center red"><span id="countSumOfAgesDisplay"></td>
+                    <td class="center red"><span id="countAverageAgesDisplay"></td>
+                  </tr>
+                </table>
+              </div> 
+            </div>
+
+        </div>
+
+      </div>
+</body>
+</html>
+<script src="./js/script.js"></script>
