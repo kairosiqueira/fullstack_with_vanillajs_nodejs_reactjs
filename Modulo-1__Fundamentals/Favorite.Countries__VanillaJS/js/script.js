@@ -1,4 +1,5 @@
   // INICIA VARIÁVEIS E ARRAYS QUE SERÃO USADAS NO PROGRAMA
+  // STARTS VARIABLES AND ARRAYS TO BE USED IN THE PROGRAM
   let tabCountries = null;
   let tabFavorites = null;
   let allCountries = [];
@@ -9,10 +10,12 @@
   let totalPopulationFavorites = 0;
   let numberFormat = null;
 
-  // MÉTODO QUE ESPERA TODA A PÁGINA CARREGAR 
+  // MÉTODO QUE ESPERA TODA A PÁGINA CARREGAR
+  // METHOD THAT WAITS ALL THE PAGE TO LOAD
   window.addEventListener('load', start);
   
-  //FUNÇÃO QUE ESTARTA O PROGRAMA
+  // FUNÇÃO QUE ESTARTA O PROGRAMA
+  // FUNCTION THAT START THE PROGRAM
   function start() {
     tabCountries = document.querySelector('#tabCountries');
     tabFavorites = document.querySelector('#tabFavorites');
@@ -21,15 +24,20 @@
     totalPopulationList = document.querySelector('#totalPopulationList');
     totalPopulationFavorites = document.querySelector('#totalPopulationFavorites');
     numberFormat = Intl.NumberFormat('pt-BR');
+    
     // CHAMA A FUNÇÃO QUE PEGA OS DADOS DA API COUNTRIES
+    // CALLS THE FUNCTION THAT TAKES DATA FROM THE COUNTRIES API
     fetchCountries();
   }
+
   // FUNÇÃO QUE PEGA OS DADOS DA API, OS SEPARA E TRATA
+  // FUNCTION THAT TAKES DATA FROM THE API, SEPARATES AND TREATS THEM
   async function fetchCountries() {
     const res = await fetch('https://restcountries.eu/rest/v2/all');
     const json = await res.json();
     
     // VARIAVEL QUE RECEBE OS DADOS DA API
+    // VARIABLE THAT RECEIVES API DATA
     allCountries = json.map(country => {
       const { name, population, flag, numericCode } = country;
 
@@ -42,6 +50,7 @@
       };
     });
     // CHAMA A FUNÇÃO RENDER()
+    // CALL THE RENDER() FUNCTION
     render();
   }
 
@@ -52,6 +61,8 @@
     handleCountryButtons();
   }
 
+  // FUNÇÃO QUE RENDERIZA A LISTA DE PAÍSES
+  // FUNCTION THAT RENDERIZES THE LIST OF COUNTRIES
   function renderCountryList(){
     let countriesHTML = "<div class='countries'>";
 

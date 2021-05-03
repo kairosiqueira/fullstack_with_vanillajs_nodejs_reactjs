@@ -1,0 +1,64 @@
+2021-03-23T20:14:53.334Z [my-bank-api] info: API Started and file Created!
+2021-03-23T20:14:54.539Z [my-bank-api] info: API Started!
+2021-03-23T20:14:58.704Z [my-bank-api] info: API Started!
+2021-03-23T20:16:27.134Z [my-bank-api] info: API Started!
+2021-03-23T20:17:00.178Z [my-bank-api] info: API Started!
+2021-03-23T20:18:05.949Z [my-bank-api] info: GET /account 
+2021-03-23T20:23:14.102Z [my-bank-api] info: POST /account - {"id":1,"name":"Kairo Barbosa Siqueira","balance":7598303030}
+2021-03-23T20:23:15.425Z [my-bank-api] info: API Started!
+2021-03-23T20:23:57.319Z [my-bank-api] info: POST /account - {"id":2,"name":"Kátia Alessandra Resende Weber","balance":1}
+2021-03-23T20:23:58.261Z [my-bank-api] info: API Started!
+2021-03-23T20:24:17.046Z [my-bank-api] info: POST /account - {"id":3,"name":"Maria Clara Barbosa","balance":100000}
+2021-03-23T20:24:17.989Z [my-bank-api] info: API Started!
+2021-03-23T20:24:33.254Z [my-bank-api] info: API Started!
+2021-03-23T20:24:47.613Z [my-bank-api] info: API Started!
+2021-03-23T20:39:03.187Z [my-bank-api] info: GET /account 
+2021-03-23T20:39:57.689Z [my-bank-api] info: POST /account - {"id":4,"name":"Marleidão Duarte Barbosão","balance":200}
+2021-03-23T20:39:58.949Z [my-bank-api] info: API Started!
+2021-03-23T20:40:15.983Z [my-bank-api] info: POST /account - {"id":5,"name":"Erikuds Maluquinha","balance":2}
+2021-03-23T20:40:17.082Z [my-bank-api] info: API Started!
+2021-03-23T20:40:20.163Z [my-bank-api] info: GET /account 
+2021-03-23T20:44:36.243Z [my-bank-api] info: GET /account/:id
+2021-03-23T20:47:28.404Z [my-bank-api] info: GET /account/:id
+2021-03-23T20:48:23.292Z [my-bank-api] info: GET /account 
+2021-03-23T21:03:15.303Z [my-bank-api] info: PUT /account - {"id":4,"name":"Marleidão Duarte Barbosão","balance":200}
+2021-03-23T21:03:16.528Z [my-bank-api] info: API Started!
+2021-03-23T21:03:24.762Z [my-bank-api] info: PUT /account - {"id":4,"name":"Marleidão Duarte Barbozildo","balance":200}
+2021-03-23T21:03:26.003Z [my-bank-api] info: API Started!
+2021-03-23T21:03:30.511Z [my-bank-api] info: GET /account 
+2021-03-23T21:06:55.522Z [my-bank-api] error: PATCH /account - Id, Name and Balance are required
+2021-03-23T21:08:07.163Z [my-bank-api] error: PATCH /account - Id, Name and Balance are required
+2021-03-23T21:09:10.294Z [my-bank-api] info: API Started!
+2021-03-23T21:09:12.414Z [my-bank-api] info: PATCH /account/updateBalance - {"id":4,"balance":5000}
+2021-03-23T21:09:13.568Z [my-bank-api] info: API Started!
+2021-03-23T21:09:43.838Z [my-bank-api] info: API Started!
+2021-03-23T21:19:38.724Z [my-bank-api] error: POST /account - Name and Balance are required
+2021-03-23T21:21:01.529Z [my-bank-api] info: API Started!
+2021-03-23T21:21:25.081Z [my-bank-api] info: API Started!
+2021-03-23T21:22:26.286Z [my-bank-api] info: API Started!
+2021-03-23T21:23:03.132Z [my-bank-api] error: POST /account - The "path" argument must be of type string or an instance of Buffer or URL. Received undefined
+2021-03-23T21:23:17.874Z [my-bank-api] error: POST /account - The "path" argument must be of type string or an instance of Buffer or URL. Received undefined
+2021-03-23T21:23:19.513Z [my-bank-api] error: POST /account - The "path" argument must be of type string or an instance of Buffer or URL. Received undefined
+2021-03-23T21:23:27.929Z [my-bank-api] info: API Started!
+2021-03-23T21:23:29.582Z [my-bank-api] info: POST /account - {"id":6,"name":"Erikuds Maluquinha_","balance":8987}
+2021-03-23T21:23:30.537Z [my-bank-api] info: API Started!
+2021-03-23T21:24:03.280Z [my-bank-api] info: API Started!
+2021-03-23T21:26:29.544Z [my-bank-api] info: API Started!
+2021-03-24T11:24:04.901Z [my-bank-api] info: API Started!
+2021-03-24T11:39:06.733Z [my-bank-api] info: API Started!
+2021-03-24T11:39:09.296Z [my-bank-api] info: API Started!
+2021-03-24T11:39:50.823Z [my-bank-api] info: GET /account 
+2021-03-24T11:40:40.949Z [my-bank-api] error: PATCH /account - ID, and NAME are required
+2021-03-24T11:41:23.071Z [my-bank-api] info: PATCH /account/updateName - {"id":3,"name":"Maria Clara Lindinha"}
+2021-03-24T11:41:24.116Z [my-bank-api] info: API Started!
+2021-03-24T11:41:31.400Z [my-bank-api] info: GET /account 
+2021-03-24T11:42:19.576Z [my-bank-api] error: PATCH /account - ID não encontrado!
+2021-03-24T11:53:15.517Z [my-bank-api] info: API Started!
+2021-03-24T11:54:07.014Z [my-bank-api] info: API Started!
+2021-03-24T12:08:11.709Z [my-bank-api] info: API Started!
+2021-03-24T12:10:57.741Z [my-bank-api] info: API Started!
+2021-03-24T12:12:57.431Z [my-bank-api] info: API Started!
+2021-03-24T12:13:31.487Z [my-bank-api] info: API Started!
+2021-03-24T12:13:36.140Z [my-bank-api] info: API Started!
+2021-03-24T12:13:54.862Z [my-bank-api] info: API Started!
+2021-03-24T12:17:10.915Z [my-bank-api] info: API Started!

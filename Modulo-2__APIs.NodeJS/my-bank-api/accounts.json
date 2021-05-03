@@ -1,0 +1,35 @@
+{
+  "nextId": 7,
+  "accounts": [
+    {
+      "id": 1,
+      "name": "Kairo Barbosa Siqueira",
+      "balance": 7598303030
+    },
+    {
+      "id": 2,
+      "name": "Kátia Alessandra Resende Weber",
+      "balance": 1
+    },
+    {
+      "id": 3,
+      "name": "Maria Clara Lindinha",
+      "balance": 100000
+    },
+    {
+      "id": 4,
+      "name": "Marleidão Duarte Barbozildo",
+      "balance": 5000
+    },
+    {
+      "id": 5,
+      "name": "Erikuds Maluquinha",
+      "balance": 2
+    },
+    {
+      "id": 6,
+      "name": "Erikuds Maluquinha_",
+      "balance": 8987
+    }
+  ]
+}

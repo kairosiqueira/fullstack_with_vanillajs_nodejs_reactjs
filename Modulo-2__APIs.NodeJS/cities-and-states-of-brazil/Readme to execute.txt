@@ -1,0 +1,1 @@
+Para executar, abrir o arquivo index.js no VSCode e dar "Run Code".
