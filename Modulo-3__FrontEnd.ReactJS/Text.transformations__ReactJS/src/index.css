@@ -1,0 +1,70 @@
+body {
+  background-color: #00afa2;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.input-field {
+  font-weight: bold;
+}
+
+.input-field p {
+  text-align: left;
+  font-weight: bold;
+  margin: 0px;
+  padding: 0px;
+}
+
+.default-flex-row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.padding {
+  padding: 10px;
+}
+
+form {
+  margin: 0px;
+  padding: 0px;
+}
+
+form p {
+  font-weight: bold;
+}
+
+.input {
+  background-color: #000;
+}
+
+.fieldset {
+  background-color: #f4f4f4;
+  border: 1px solid #f4f4f4;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  margin: 0px;
+  padding: 0px;
+}
+
+.fieldset legend {
+  font-size: 30px;
+  padding-top: 30px;
+  font-weight: bold;
+}
+
+.fieldset p {
+  font-weight: bold;
+  margin: 0px;
+  padding: 0px;
+}

@@ -1,0 +1,26 @@
+2021-03-30T14:05:57.288Z [grades-control-api] info: GET /grades/index - Transaction Success!
+2021-03-30T14:05:57.295Z [grades-control-api] error: GET  - Cannot set headers after they are sent to the client
+2021-03-30T14:06:07.628Z [grades-control-api] info: GET /grades/index - Transaction Success!
+2021-03-30T14:06:07.630Z [grades-control-api] error: GET  - Cannot set headers after they are sent to the client
+2021-03-30T14:07:40.080Z [grades-control-api] info: GET /grades/getById/70 - Successful transaction!
+2021-03-30T14:08:55.418Z [grades-control-api] info: GET /grades/index - Transaction Success!
+2021-03-30T14:23:39.763Z [grades-control-api] info: GET /grades/index - Transaction Success!
+2021-03-30T14:23:41.816Z [grades-control-api] info: GET /grades/index - Transaction Success!
+2021-03-30T14:23:43.177Z [grades-control-api] info: GET /grades/index - Transaction Success!
+2021-03-30T14:26:11.009Z [grades-control-api] info: GET /grades/index - Transaction Success!
+2021-03-30T14:26:12.741Z [grades-control-api] info: GET /grades/index - Transaction Success!
+2021-03-30T14:26:17.370Z [grades-control-api] info: GET /grades/getById/70 - Successful transaction!
+2021-03-30T14:27:52.023Z [grades-control-api] info: GET /grades/getById/70 - Successful transaction!
+2021-03-30T14:27:55.411Z [grades-control-api] info: PUT /grades/edit/65 - Successful transaction!
+2021-03-30T14:28:02.166Z [grades-control-api] info: GET /grades/index - Transaction Success!
+2021-03-30T14:28:15.397Z [grades-control-api] info: DELETE /grades/delete/71 - Successful transaction!
+2021-03-30T14:28:19.982Z [grades-control-api] info: GET /grades/index - Transaction Success!
+2021-03-30T16:48:55.896Z [grades-control-api] info: GET /grades/average/undefined/undefined
+2021-03-30T16:50:43.691Z [grades-control-api] info: GET /grades/average/Fórum/01 - JavaScript
+2021-03-30T16:54:49.345Z [grades-control-api] info: GET /grades/average/Desafio/02 - Node
+2021-03-30T17:24:57.197Z [grades-control-api] info: POST /grades/create - Transaction Success!
+2021-03-30T17:25:43.466Z [grades-control-api] info: GET /grades/sum/Roberto Achar/03 - React
+2021-03-30T17:26:25.292Z [grades-control-api] info: GET /grades/getById/33 - Successful transaction!
+2021-03-30T17:27:20.554Z [grades-control-api] info: PUT /grades/edit/33 - Successful transaction!
+2021-03-30T17:28:03.471Z [grades-control-api] info: GET /grades/average/Desafio/01 - JavaScript
+2021-03-30T17:36:16.758Z [grades-control-api] info: GET /grades/getById/43 - Successful transaction!

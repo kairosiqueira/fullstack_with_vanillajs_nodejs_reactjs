@@ -1,0 +1,20 @@
+.discount-inss input {
+  color: #c89808;
+}
+
+.discount-irpf input {
+  color: #dc3545;
+}
+
+.net-salary input {
+  color: #28a745;
+}
+.progress {
+  background-color: #fff;
+  height: 10px;
+  border: 1px solid #fff;
+}
+
+.INSSBase {
+  border: 1px solid #28a745;
+}
